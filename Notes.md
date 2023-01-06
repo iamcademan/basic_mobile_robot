@@ -7,17 +7,20 @@ sudo apt install ros-humble-nav2-bringup
 sudo apt install ros-humble-joint-state-publisher-gui
 sudo apt install ros-humble-xacro
 sudo apt-get install gedit
+sudo apt install ros-humble-gazebo-ros-pkgs
 
 ## Run the following to setup environment
 
 ```echo "source /usr/share/colcon_cd/function/colcon_cd.sh" >> ~/.bashrc echo "export _colcon_cd_root=~/dev_ws" >> ~/.bashrc```
 
+```export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/home/cade/dev_ws/src/basic_mobile_robot/models/```
+
 ## To create the base package
 
 In a terminal copy and paste each cmd and press enter:
-ros2 pkg create --build-type ament_cmake basic_mobile_robot
+```ros2 pkg create --build-type ament_cmake basic_mobile_robot
 cd ~/dev_ws/src/basic_mobile_robot
-mkdir config launch maps meshes models params rviz worlds
+mkdir config launch maps meshes models params rviz worlds```
 
 ## Initial Build:
 
