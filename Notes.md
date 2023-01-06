@@ -31,14 +31,19 @@ colcon build --packages-select basic_mobile_robot --symlink-install
 
 # Basic Launching
 
-cd ~/dev_ws/
-source ~/dev_ws/install/setup.bash
-ros2 launch basic_mobile_robot basic_mobile_bot_v1.launch.py
-TO SEE PARAMS:
-ros2 launch -s basic_mobile_robot basic_mobile_bot_v1.launch.py
+```cd ~/dev_ws/```
 
+```source ~/dev_ws/install/setup.bash ros2 launch basic_mobile_robot basic_mobile_bot_v1.launch.py```
+
+TO SEE PARAMS:
+
+```ros2 launch -s basic_mobile_robot basic_mobile_bot_v1.launch.py```
 
 # References:
 
 * [https://automaticaddison.com/how-to-create-a-simulated-mobile-robot-in-ros-2-using-urdf/](https://)
 * [https://automaticaddison.com/set-up-the-odometry-for-a-simulated-mobile-robot-in-ros-2/](https://)
+
+```
+
+```
