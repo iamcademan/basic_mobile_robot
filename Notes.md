@@ -8,6 +8,9 @@ sudo apt install ros-humble-joint-state-publisher-gui
 sudo apt install ros-humble-xacro
 sudo apt-get install gedit
 sudo apt install ros-humble-gazebo-ros-pkgs
+sudo apt-get install ros-humble-rqt
+sudo apt install ros-humble-rqt-robot-steering
+
 
 ## Run the following to setup environment
 
@@ -50,3 +53,6 @@ TO SEE PARAMS:
 
 Left off at: Test your robot on : 
 https://automaticaddison.com/set-up-the-odometry-for-a-simulated-mobile-robot-in-ros-2/
+
+To steer robot in Gazebo:
+ros2 run rqt_robot_steering rqt_robot_steering
