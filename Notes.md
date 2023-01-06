@@ -39,7 +39,8 @@ colcon build --packages-select basic_mobile_robot --symlink-install
 
 ```cd ~/dev_ws/```
 
-```source ~/dev_ws/install/setup.bash ros2 launch basic_mobile_robot basic_mobile_bot_v1.launch.py```
+```source ~/dev_ws/install/setup.bash 
+ros2 launch basic_mobile_robot basic_mobile_bot_v1.launch.py```
 
 TO SEE PARAMS:
 
