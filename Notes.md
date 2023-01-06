@@ -47,6 +47,6 @@ TO SEE PARAMS:
 * [https://automaticaddison.com/how-to-create-a-simulated-mobile-robot-in-ros-2-using-urdf/](https://)
 * [https://automaticaddison.com/set-up-the-odometry-for-a-simulated-mobile-robot-in-ros-2/](https://)
 
-```
 
-```
+Left off at: Test your robot on : 
+https://automaticaddison.com/set-up-the-odometry-for-a-simulated-mobile-robot-in-ros-2/
