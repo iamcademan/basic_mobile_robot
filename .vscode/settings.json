@@ -11,5 +11,7 @@
     "files.associations": {
         "*.config": "xml",
         "*.sdf": "xml",
+        ".sh": "bashdb"
       }
+    
 }

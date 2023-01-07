@@ -52,8 +52,9 @@ TO SEE PARAMS:
 * [https://automaticaddison.com/set-up-the-odometry-for-a-simulated-mobile-robot-in-ros-2/](https://)
 
 
-Left off at: Test your robot on : 
-https://automaticaddison.com/set-up-lidar-for-a-simulated-mobile-robot-in-ros-2/
+to get Gazebo to load your world:
+```cd /home/cade/dev_ws/src/basic_mobile_robot/worlds/basic_mobile_bot_world
+gazebo smalltown.world ```
 
 To steer robot in Gazebo:
 ros2 run rqt_robot_steering rqt_robot_steering
